@@ -1,0 +1,23 @@
+# Secrets and environment variables
+.env
+.env.*
+!.env.example
+
+# State and session storage
+state.json
+*.jsonl
+downloads/*
+!downloads/.gitkeep
+
+# Python cache & virtual environments
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Backups and temporary files
+*.orig
+*.bak
+*.swp
+.DS_Store
